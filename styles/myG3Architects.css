@@ -2,6 +2,7 @@
 :root{
     --black-primary : #131313;
     --black-secondary: #727272;
+    --black-tertiary: #424242;
     --font-primary: 'Work Sans', sans-serif;
 }
 
@@ -160,5 +161,75 @@ nav ul > li{
     font-size: 16px;
     color: var(--black-secondary);
 }
+/* Experience button style */
+.experience_button{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    padding: 46px 42px;
+    text-align: center;
+    position: relative;
+    top: -180px;
+    left: 100px;
 
+}
+.experience_button_title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.experience_button_description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+/* Some Facts Styles */
+.some_facts{
+    display: flex;
+    flex-direction: column;
+}
+.some_facts_title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black-primary);
+    margin-bottom: 24px;
+}
+.some_facts_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+    margin-bottom: 100px;  
+}
+.some_facts_elements{
+    display: flex;
+    gap: 124px;
+    margin-bottom: 180px;
+}
+.some_facts_element{
+    width: 242px;
+    height: 242px;
+    padding: 46px 37px 60px 36px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: border-radius 2s, transform 2s;
+}
+.some_facts_elements :hover{
+    border-radius: 50%;
+    transform: rotate(365deg);
+    border: 1px dashed #0eff1a;
+}
+.some_facts_element_counts{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--black-tertiary);
+}
+.some_facts_element_status{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--black-secondary);
+}
 
