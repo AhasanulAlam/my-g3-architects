@@ -11,11 +11,75 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: var(--font-primary);
+}
 
 .container{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
+
+/* header style  */
+header{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    text-align: center;
+}
+.nav_title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black-primary);
+    margin-bottom: 102px;
+}
+nav ul{
+    display: flex;
+    gap: 74px;
+    list-style: none;
+}
+nav ul > li{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--black-secondary);
+}
+/* Banner sthle */
+.banner{
+    text-align: center;
+    width: 862px;
+}
+.banner_title{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--black-primary);
+    margin-bottom: 25px;
+}
+.banner_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+    margin-bottom: 32px;
+}
+.primary_btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.banner_image img{
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+
+
 
 
