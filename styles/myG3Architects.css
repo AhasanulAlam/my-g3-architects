@@ -358,8 +358,10 @@ nav ul > li{
         top: -200px;
     }
     .banner_image img,
+    .love_enjoy_features_image img,
+    .quick_features_image img,
     .banner{
-        width: 575px;
+        width: 100%;
         row-gap: 15px;
     }    
 }
@@ -403,8 +405,10 @@ nav ul > li{
         top: -200px;
     }
     .banner_image img,
+    .love_enjoy_features_image img,
+    .quick_features_image img,
     .banner{
-        width: 900px;
+        width: 100%;
         row-gap: 25px;
         justify-content: center;
         
