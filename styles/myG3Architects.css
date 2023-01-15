@@ -340,26 +340,32 @@ nav ul > li{
     .quick_features_content,
     .love_enjoy_features,
     .love_enjoy_features_content,
+    .love_enjoy_features_sub_content,
     .some_facts,
     .some_facts_elements,
     .our_achievements,
     .our_achievements_content_element,
     .our_sponsors,
+    .our_sponsors_description,
     .our_sponsors_logo{
         flex-direction: column;
         row-gap: 5px;
         text-align: center;
         align-items: center;
+        width: 100%;
     }
     .quick_features_image{
         grid-template-columns: repeat(1,1fr);
     }
     .experience_button{
         top: -200px;
+        left: auto;
+        width: auto;
     }
     .banner_image img,
     .love_enjoy_features_image img,
     .quick_features_image img,
+    .our_achievements_sub_content img,
     .banner{
         width: 100%;
         row-gap: 15px;
@@ -385,16 +391,19 @@ nav ul > li{
     .quick_features_content,
     .love_enjoy_features,
     .love_enjoy_features_content,
+    .love_enjoy_features_sub_content,
     .some_facts,
     .some_facts_elements,
     .our_achievements,
     .our_achievements_content_element,
+    .our_achievements_description,
     .our_sponsors,
     .our_sponsors_logo{
         flex-direction: column;
         row-gap: 5px;
         text-align: center;
         align-items: center;
+        width: 100%;
     }
     .quick_features_image,
     .some_facts_elements{
@@ -407,6 +416,7 @@ nav ul > li{
     .banner_image img,
     .love_enjoy_features_image img,
     .quick_features_image img,
+    .our_achievements_sub_content img,
     .banner{
         width: 100%;
         row-gap: 25px;
