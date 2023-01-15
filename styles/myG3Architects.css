@@ -84,6 +84,7 @@ nav ul > li{
     display:flex;
     gap: 73px;
     padding-top: 83px;
+    margin-bottom: 130px;
 }
 .quick_features_image{
     display: grid;
@@ -118,7 +119,46 @@ nav ul > li{
     margin-bottom: 32px;
 }
 /* love & Enjoy Features style  */
-
-
+.love_enjoy_features{
+    display: flex;
+    gap: 146px;
+}
+.love_enjoy_features_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 586px;
+}
+.love_enjoy_features_title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black-primary);
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.love_enjoy_features_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+    margin-bottom: 30px;
+}
+.love_enjoy_features_sub_content{
+    width: 586px;
+    padding: 30px 30px 30px 42px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.love_enjoy_features_sub_content_title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--black-primary);
+    margin-bottom: 10px;
+}
+.love_enjoy_features_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+}
 
 
