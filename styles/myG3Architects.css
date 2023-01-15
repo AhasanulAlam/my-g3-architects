@@ -232,4 +232,47 @@ nav ul > li{
     font-size: 20px;
     color: var(--black-secondary);
 }
+/* Our Sponsors styles */
+.our_sponsors{
+    width: 542px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.our_sponsors_title{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black-primary);
+    margin-bottom: 24px;
+}
+.our_sponsors_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+    margin-bottom: 50px;
+}
+.our_sponsors_logo{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 130px;   
+}
+.our_sponsors_logo img{
+    filter: grayscale(1);
+}
+/* Footer Styles */
+.footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 410px;
+    margin-bottom: 216px;
+}
+.footer_description{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black-tertiary);
+}
+
+
+
 
