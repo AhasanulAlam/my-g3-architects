@@ -371,7 +371,7 @@ nav ul > li{
         row-gap: 15px;
     }    
 }
-
+/* medium devices */
 @media only screen and (min-width:577px) and (max-width:992px) {
     nav{
         flex-direction: column;
@@ -424,4 +424,3 @@ nav ul > li{
         
     }    
 }
-
