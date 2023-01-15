@@ -79,6 +79,45 @@ nav ul > li{
     border-radius: 8px;
     margin-bottom: 45px;
 }
+/* Quick Feature content style */
+.quick_features{
+    display:flex;
+    gap: 73px;
+    padding-top: 83px;
+}
+.quick_features_image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.quick_features_content{
+    display: flex;
+    flex-direction: column;
+    width: 537px;
+    height:auto;
+    padding-top: 200px;
+}
+.quick_features_content_title{
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--black-secondary);
+    margin-bottom: 24px;
+}
+.quick_features_content_title_ofOur{
+    font-weight: 700;
+    color: var(--black-primary);
+}
+.quick_features_content_title_Features{
+    font-weight: 700;
+    color: #FF900E;
+}
+.quick_features_content_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-secondary);
+    margin-bottom: 32px;
+}
+/* love & Enjoy Features style  */
 
 
 
