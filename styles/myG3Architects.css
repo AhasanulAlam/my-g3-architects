@@ -1,0 +1,22 @@
+/* Universal variable declaration */
+:root{
+    --black-primary : #131313;
+    --black-secondary: #727272;
+    --font-primary: 'Work Sans', sans-serif;
+}
+
+/* Universal styles */
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+
