@@ -48,7 +48,7 @@ nav ul > li{
     font-size: 18px;
     color: var(--black-secondary);
 }
-/* Banner sthle */
+/* Banner style */
 .banner{
     text-align: center;
     width: 862px;
@@ -142,7 +142,6 @@ nav ul > li{
     font-weight: 400;
     font-size: 16px;
     color: var(--black-secondary);
-    margin-bottom: 30px;
 }
 .love_enjoy_features_sub_content{
     width: 586px;
@@ -206,7 +205,7 @@ nav ul > li{
 .some_facts_elements{
     display: flex;
     gap: 124px;
-    margin-bottom: 180px;
+    margin-bottom: 130px;
 }
 .some_facts_element{
     width: 242px;
@@ -239,12 +238,10 @@ nav ul > li{
     gap: 20px;
     margin-bottom: 130px;
 }
-
 .our_achievements_content_element{
     display: flex;
     gap: 30px;
 }
-
 .our_achievements_title{
     font-weight: 700;
     font-size: 45px;
@@ -324,6 +321,11 @@ nav ul > li{
     color: var(--black-tertiary);
 }
 
+/* Media Queries section */
 
+@media only screen and (max-width:576px) {
+
+    
+}
 
 
